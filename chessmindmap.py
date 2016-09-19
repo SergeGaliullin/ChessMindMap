@@ -19,20 +19,6 @@ class MyWindow(Gtk.Window):
         listbox.set_selection_mode(Gtk.SelectionMode.NONE)
         self.page0.pack_start(listbox, True, True, 0)
 
-        # row = Gtk.ListBoxRow()
-        # hbox = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=50)
-        # row.add(hbox)
-        # vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
-        # hbox.pack_start(vbox, True, True, 0)
-        #
-        # l1 = Gtk.Label("Square it left/gained", xalign=0)
-        # vbox.pack_start(l1, True, True, 0)
-        #
-        # self.s1 = Gtk.Switch()
-        # self.s1.props.valign = Gtk.Align.CENTER
-        # hbox.pack_start(self.s1, False, True, 0)
-        #
-        # listbox.add(row)
 
 
         row = Gtk.ListBoxRow()
